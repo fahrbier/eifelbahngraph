@@ -1,0 +1,42 @@
+@startuml
+graph G {
+    Köln -- Hürth
+    Hürth -- Bonn
+    Hürth -- Euskirchen
+    Euskirchen -- Blankenheim
+    Blankenheim -- Jünkerath
+    Blankenheim -- Ahrhütte
+    Ahrhütte -- Dümpelfeld
+    Dümpelfeld -- Adenau
+    Dümpelfeld -- Remagen
+    Jünkerath -- Losheim
+    Jünkerath -- Hillesheim
+    Jünkerath -- Gerolstein
+    Hillesheim -- Ahrhütte
+    Hillesheim -- Gerolstein
+    Gerolstein -- Pronsfeld
+    Gerolstein -- Erdorf
+    Gerolstein -- Daun
+    Pronsfeld -- Neuerburg
+    Pronsfeld -- Waxweiler
+    Pronsfeld -- Ihren
+    Daun -- Mayen
+    Daun -- Wengerohr
+    Erdorf -- Igel
+    Igel -- Trier
+    Erdorf -- Trier
+    Mayen -- Andernach
+    Mayen -- Polch
+    Polch -- Münstermaifeld
+    Polch -- Koblenz
+    Andernach -- Remagen
+    Andernach -- Koblenz
+    Trier -- Wengerohr
+    Wengerohr -- Koblenz
+    Remagen -- Bonn
+    Bonn -- Euskirchen
+    Euskirchen -- BadMünstereifel
+    Euskirchen -- Düren
+    Düren -- Köln
+} 
+@enduml
